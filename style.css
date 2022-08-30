@@ -1,0 +1,102 @@
+html{
+    background: black;
+    display:flex;
+    height: 100vh
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    height: 40em;
+    width: 35em;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+header {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow: 2px 2px blue;
+    font-weight: bolder;
+}
+
+.grid {
+    width:500px;
+    height:500px;
+    display:grid;
+    border: solid black;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    margin: 5px;
+}
+
+button:hover {
+    cursor:pointer;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.black {
+    background-color: black;
+    color:white;
+    width: 80px;
+    box-shadow: 5px yellow;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+    width: 80px;
+}
+
+.erase {
+    background-color: palevioletred;
+    color: white;
+    width: 80px;
+}
+
+.rainbow {
+    background: linear-gradient(45deg, red, orange, yellow, lightgreen, lightblue, indigo, violet, red);
+    color: black;
+    width: 80px;
+}
+
+.clear {
+    width: 80px;
+}
+
+input {
+    font-size: 20px;
+    width: 45px;
+    height: 35px;
+    border: solid black;
+}
+
+.oor {
+    font-weight: bold;
+    color: black;
+    background-color: yellow;
+}
+
+img {
+    height: 15px;
+    width: 15px;
+}

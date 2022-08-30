@@ -1,0 +1,28 @@
+<!DOCTYPE = html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Etch a Sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <script type=""text/javascript" src="script.js" defer></script>
+    </head>
+    <body>
+        <header>Etch A Sketch</header>
+        <div class="container">
+            <div class="grid"></div>
+            <div class="buttons">
+                <button class="black">Black</button>
+                <button class="blue">Blue</button>
+                <button class="rainbow">Rainbow</button>
+                <button class="erase">Eraser</button>
+                <button class="clear">Clear</button>
+            </div>
+            <div>
+                <input type="text" placeholder="Box Numbers" value="16" onchange="changeSize(this.value)" />
+                <button class="boxes">Number of boxes per side</button><br>
+                <div class="oor"></div>
+            </div>
+        </div>
+        <div>Project by johnyungpark <a href="https://github.com/johnyungpark"><img src="../etch/github.jpeg" alt="github-icon"></a></div>
+    </body>
+</html>
